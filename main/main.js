@@ -1,5 +1,5 @@
 module.exports = function main(inputs) {
-    var distance_fee, wait_fee, total_fee;
+    var distance_fee = 0, wait_fee = 0, total_fee = 0;
 
     if (inputs.distance <= 2)
         distance_fee = 6
